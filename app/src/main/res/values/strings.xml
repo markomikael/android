@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Helloworld</string>
+    <string name="action_settings">Settings</string>
+    <string name="save">save</string>
+    <string name="textview">TextView</string>
+    <string name="mitatassapitaisilukeanyttenoikein">teksti2</string>
+    <string name="lisaa">lisaa</string>
+</resources>
