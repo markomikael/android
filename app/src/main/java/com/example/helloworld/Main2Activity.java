@@ -29,9 +29,15 @@ public class Main2Activity extends AppCompatActivity {
         if (intent != null) {
 
             ArrayList<String> array = intent.getStringArrayListExtra("kissa");
-
+            teksti2.setText("lista"+"\n");
             if (array.size() != 0)
-            teksti2.setText(array.toString());
+
+
+                    for (int i = 0;i<array.size();i++)
+                    {
+                        teksti2.append(array.get(i) + "\n");
+                    }
+
 
             else
                 teksti2.setText("tyhjataulu");
